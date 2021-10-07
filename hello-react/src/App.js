@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react"
-import Header  from "./components/Header"
+
 import User from "./components/User";
 
 const friends=[
@@ -21,8 +21,13 @@ function App() {
     name="Marhamat" 
     surname="Baghirov" 
     isLoggedIn={true} 
-    age={29} 
-    friends={friends}/>
+    age={"Twenty Seven"} 
+    friends={friends}
+    address={{
+      title:"Kagıthane",
+      postal_code:34413
+    }}
+    />
     </>
   );
 }
