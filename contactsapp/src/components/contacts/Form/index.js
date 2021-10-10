@@ -3,6 +3,9 @@ import {useState,useEffect} from "react";
 
 const initialFormValues={fullname:"",phone_number:""}
 
+
+
+
 function Form( {addContact,contacts}) {
 
 
@@ -58,7 +61,7 @@ function Form( {addContact,contacts}) {
                 />
             </div>
 
-            <div>
+            <div className='btn' >
                 <button>Add</button>
             </div>
 
