@@ -16,7 +16,7 @@ useEffect(()=>{
 Axios("https://jsonplaceholder.typicode.com/users")
 .then((res)=>setUsers(res.data))
 .catch((e)=>console.log(e))  //yalnısları olursa
-.finally(()=>setIsloading(false))  // false yaptık yukleme olduktan sonra loading gitsin
+.finally(()=>setIsloading(false))  // false yaptık yukleme olduktan sonra loading gitsinkayb olsun
 
 },[])
 
